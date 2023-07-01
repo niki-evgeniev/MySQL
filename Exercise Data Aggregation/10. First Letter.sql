@@ -1,0 +1,4 @@
+SELECT LEFT(first_name, 1) as first_letter from wizzard_deposits
+WHERE deposit_group = 'Troll Chest'
+GROUP BY first_letter
+ORDER BY first_letter;
